@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -21,7 +21,7 @@ header {
 
 .logo {
     text-decoration: none;
-    color: black;
+    color: #005ec7;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
@@ -29,7 +29,7 @@ header {
 
 .navigation a {
     text-decoration: none;
-    color: blue;
+    color: #005ec7;
     font-weight: 500;
     font-weight: 1.1em;
     padding-left: 30px;
@@ -37,7 +37,7 @@ header {
 
 .navigation a:hover {
     text-decoration: none;
-    color: rgb(255, 0, 64);
+    color: #002c5e;
     font-weight: 500;
     font-weight: 1.1em;
     padding-left: 30px;
@@ -83,7 +83,7 @@ section {
 
 .main-btn {
     color: #fff;
-    background-color: red;
+    background-color: #005ec7;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 600;
@@ -96,7 +96,7 @@ section {
 }
 
 .main-btn:hover {
-    background-color: rgb(117, 0, 0);
+    background-color: #002c5e;
     transform: scale(1.1);
 }
 
@@ -109,7 +109,7 @@ section {
 .title {
     display: flex;
     justify-content: center;
-    color: blue;
+    color: #005ec7;
     font-size: 2.2em;
     font-weight: 800;
     margin-bottom: 30px;
@@ -141,7 +141,7 @@ section {
 }
 
 .icon {
-    color: blue;
+    color: #005ec7;
     font-size: 8em;
     text-align: center;
 }
@@ -152,14 +152,14 @@ section {
 }
 
 .info h3 {
-    color: blue;
+    color: #005ec7;
     font-size: 1.2em;
     font-weight: 700;
     margin: 10px;
 }
 
 .projects {
-    background-color: rgb(37, 37, 37);
+    background-color: #020a17;
 }
 
 .content-projects {
@@ -180,11 +180,11 @@ section {
 }
 
 .project-image {
-    height: 10em;
-    width: 15em;
+    height: 15em;
+    width: 20em;
     overflow: hidden;
     border-radius: 10px;
-    background-size: cover;
+    background-size: fill;
     background-position: center;
 }
 
@@ -197,8 +197,14 @@ section {
     padding: 1em;
 }
 
+.project-info h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+    color: #ffffff;
+}
+
 .project-info a {
-    color: #fff;
+    color: #006ae2;
     text-decoration: none;
     font-weight: 500;
     font-size: 1em;
@@ -207,6 +213,7 @@ section {
 
 .project-details {
     font-size: 0.9em;
+    font-weight: 200;
 }
 
 .contact .icon {
