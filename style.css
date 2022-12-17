@@ -29,7 +29,7 @@ header {
 
 .navigation a {
     text-decoration: none;
-    color: #005ec7;
+    color: #000000;
     font-weight: 500;
     font-weight: 1.1em;
     padding-left: 30px;
@@ -37,7 +37,7 @@ header {
 
 .navigation a:hover {
     text-decoration: none;
-    color: #002c5e;
+    color: #005ec7;
     font-weight: 500;
     font-weight: 1.1em;
     padding-left: 30px;
@@ -103,7 +103,7 @@ section {
 .social-icons a {
     color: #fff;
     font-size: 1.7em;
-    padding-right: 30px;
+    padding: 0 30px;
 }
 
 .title {
@@ -180,7 +180,7 @@ section {
 }
 
 .project-image {
-    height: 15em;
+    height: 13em;
     width: 20em;
     overflow: hidden;
     border-radius: 10px;
@@ -190,6 +190,7 @@ section {
 
 .project-image img {
     width: 100%;
+    height: 100%;
 }
 
 .project-info {
@@ -245,15 +246,107 @@ section {
     color: #3a6cf4;
 }
 
+.footer-title a {
+    text-decoration: none;
+}
+
 .footer .social-icons a {
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
 
+
+
+
+
 @media (max-width:1023px) {
     header {
         padding: 10px 20px;
     }
+
+    .navigation a {
+        text-decoration: none;
+        color: #005ec7;
+        font-weight: 500;
+        font-weight: 1.1em;
+        padding-left: 10px;
+    }
+
+    .navigation a:hover {
+        text-decoration: none;
+        color: #002c5e;
+        font-weight: 500;
+        font-weight: 1.1em;
+        padding-left: 10px;
+    }
+
+    body {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .main-items {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .main h2 {
+        color: #fff;
+        font: 1.4em;
+        font-weight: 500;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .main h2 span {
+        display: inline-block;
+        color: #fff;
+        font-size: 3em;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+
+    .main h3 {
+        color: #fff;
+        font: 2em;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .main-btn {
+        color: #fff;
+        background-color: #005ec7;
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 600;
+        display: inline-block;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        padding: 1em 2em;
+        letter-spacing: 2px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        transition: 0.7s ease;
+    }
+
+
+
+    .social-icons {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+
+
 
     .navigation a {
         padding-left: 10px;
@@ -263,8 +356,8 @@ section {
         font-size: 1.8em;
     }
 
-    .section {
-        padding: 80px 20px;
+    section {
+        padding: 50px 0px;
     }
 
     .main h2 {
@@ -283,6 +376,7 @@ section {
     .project-card {
         display: flex;
         flex-direction: column;
+        align-items: center;
         min-height: 15em;
         width: 100%;
         border-radius: 10px;
@@ -291,9 +385,27 @@ section {
 }
 
 @media (max-width:641px) {
-    body {
-        font-size: 12px;
+
+
+    .content-projects {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        column-width: auto;
+        margin-top: 30px;
     }
 
-    .main-content h2 {}
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .project-info {
+        width: 20em;
+    }
+
 }
